@@ -25,6 +25,7 @@ public class ExampleCommand extends Command {
   @Override
   public void execute() {
     System.out.println("ExampleCommand executing for " + subsystem + "!");
+    System.out.println("Testing " + subsystem + "!");
   }
 
   // Called once the command ends or is interrupted.
